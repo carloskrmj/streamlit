@@ -4,7 +4,8 @@ import os
 import base64
 from PIL import Image
 from io import BytesIO
-
+import pip
+pip.main(["install", "openpyxl"])
 
 #user = os.getlogin()
 
