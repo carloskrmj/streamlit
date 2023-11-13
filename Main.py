@@ -9,7 +9,7 @@ pip.main(["install", "openpyxl"])
 
 #user = os.getlogin()
 
-#dir = f'C:/temp'
+dir = f'C:/temp'
 
 
 
