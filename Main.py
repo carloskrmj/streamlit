@@ -5,9 +5,9 @@ import base64
 from PIL import Image
 from io import BytesIO
 
-user = os.getlogin()
+#user = os.getlogin()
 
-dir = f'C:/Users/{user}/Downloads'
+dir = f'C:/temp'
 
 
 
