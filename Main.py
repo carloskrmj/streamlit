@@ -167,7 +167,7 @@ col1, col2 = st.columns([3, 1], gap="large")
 
 for upload_file in upload_files:
     if '.xlsx' in upload_file.name:
-        df = pd.read_excel(upload_file)
+        df = pd.read_excel(upload_file, engine='openpyxl')
         df.columns = ['Nombres']
         df['Pais'] = bandeira
         cols = df.columns.tolist()
