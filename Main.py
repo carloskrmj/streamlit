@@ -4,6 +4,7 @@ import os
 import base64
 from PIL import Image
 from io import BytesIO
+import openpyxl
 
 #user = os.getlogin()
 
@@ -113,8 +114,8 @@ def Emailer():
     olmailitem = 0x0  # size of the new email
     newmail = ol.CreateItem(olmailitem)
     newmail.Subject = 'Mapeo OneTeam - South America HUB'
-    newmail.To = 'itopsfactory@santander.com.br'
-    newmail.CC = 'carlos.nogueira@prservicos.com.br, harald.neto@f1rst.com.br'
+    newmail.To = 'tyoregionasur@santander.com.br'
+    newmail.CC = 'carlos.nogueira@prservicos.com.br;harald.neto@f1rst.com.br'
     newmail.Body = 'Hola, adjunto el mapeo de los equipos regionales del HUB de Sudamérica.\n\nGracias!\n\n#JuntosSomosMásFuertes\n#OneTeam'
 
     attach = f'{dir}/Mapeo_OneTeam.csv'
