@@ -264,6 +264,6 @@ with st.expander("Detallhes de las especialidad"):
 
 
 
-import subprocess
-if __name__ == '__main__':
-    subprocess.run('streamlit run Main.py')
+#import subprocess
+#if __name__ == '__main__':
+#    subprocess.run('streamlit run Main.py')
