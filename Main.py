@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import base64
@@ -124,45 +125,6 @@ if upload_files:
             cdir = cdir + direct.split('\\')[i] + '/'
         cdir = f'{cdir}Mapeo_OneTeam.csv'
 
-
-def Emailer():
-    import win32com.client
-    import os
-    from time import sleep
-    import psutil
-    outlook = 0
-    for p in psutil.process_iter(attrs=['pid', 'name']):
-        if "OUTLOOK.EXE" in p.info['name']:
-            outlook = 1
-            break
-    if outlook == 0:
-        print("No, Outlook is not running")
-        os.startfile("outlook")
-        print("Outlook is starting now...")
-        sleep(15)
-
-
-
-    ol = win32com.client.Dispatch("outlook.application")
-    olmailitem = 0x0  # size of the new email
-    newmail = ol.CreateItem(olmailitem)
-    newmail.Subject = 'Mapeo OneTeam - South America HUB'
-    newmail.To = 'caio.arrabal@prservicos.com.br'
-    newmail.CC = 'carlos.nogueira@prservicos.com.br;harald.neto@f1rst.com.br'
-    newmail.Body = 'Hola, adjunto el mapeo de los equipos regionales del HUB de Sudamérica.\n\nGracias!\n\n#JuntosSomosMásFuertes\n#OneTeam'
-
-    attach = cdir
-    newmail.Attachments.Add(attach)
-
-    # To display the mail before sending it
-    newmail.Display()
-
-    #newmail.Send()
-
-st.sidebar.button('Enviar', key='enviaEmail', on_click=Emailer)
-
-# nome Mapeo one team matricula
-
 df2 = ''
 
 col1, col2 = st.columns([3, 1], gap="large")
@@ -212,8 +174,8 @@ if upload_files:
                         },
             hide_index=True,
             )
-        #csv = convert_df(df2)
-        #st.download_button(label='Salvar', data=csv, file_name='Mapeo_OneTeam.csv', mime='text/csv')
+        csv = convert_df(df2)
+        st.download_button(label='Salvar', data=csv, file_name='Mapeo_OneTeam.csv', mime='text/csv')
 
     elif '.csv' in upload_files.name:
         df = pd.read_csv(upload_files.name, sep=',')
@@ -247,7 +209,8 @@ if upload_files:
             },
             hide_index=True,
         )
-
+        csv = convert_df(df2)
+        st.download_button(label='Salvar', data=csv, file_name='Mapeo_OneTeam.csv', mime='text/csv')
     else:
         st.write('Arquivo inválido!')
 
