@@ -7,7 +7,7 @@ from io import BytesIO
 import pip
 pip.main(["install", "openpyxl"])
 
-#user = os.getlogin()
+user = os.getlogin()
 
 dir = f'C:/temp'
 
@@ -98,17 +98,17 @@ def Emailer():
     import win32com.client
     import os
     from time import sleep
-    import psutil
-    for p in psutil.process_iter(attrs=['pid', 'name']):
-        if "OUTLOOK.EXE" in p.info['name']:
-            print("Yes", p.info['name'], "is running")
-            break
-        else:
-            print("No, Outlook is not running")
-            os.startfile("outlook")
-            print("Outlook is starting now...")
-            sleep(10)
-            break
+    #import psutil
+    #for p in psutil.process_iter(attrs=['pid', 'name']):
+    #    if "OUTLOOK.EXE" in p.info['name']:
+    #        print("Yes", p.info['name'], "is running")
+    #        break
+    #    else:
+    #        print("No, Outlook is not running")
+    #        os.startfile("outlook")
+    #        print("Outlook is starting now...")
+    #        sleep(10)
+    #        break
 
 
     ol = win32com.client.Dispatch("outlook.application")
