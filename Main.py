@@ -6,7 +6,6 @@ from PIL import Image
 from io import BytesIO
 
 
-
 #user = os.getlogin()
 
 dir = f'C:/temp'
