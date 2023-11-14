@@ -1,19 +1,11 @@
-import sys
-from streamlit.web import cli as stcli
 import streamlit as st
 import pandas as pd
-import os
 import base64
 from PIL import Image
 from io import BytesIO
-from streamlit import runtime
 from tempfile import NamedTemporaryFile
 
 
-
-user = os.getlogin()
-
-dir = f'C:/temp'
 
 colunasGlosario = ['Especialidad', 'Descripción']
 dataGlosario = [('DATACENTER', 'Todos servicios SUGI y Capacity Planning'),
