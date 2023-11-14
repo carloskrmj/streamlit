@@ -150,7 +150,7 @@ bandeira = st.sidebar.selectbox('', paises)
 
 # carrega arquivo
 st.sidebar.subheader('Cargar archivo')
-upload_files = st.sidebar.file_uploader('Upload',type=['xlsx', 'csv'])
+upload_files = st.sidebar.file_uploader('', type=['xlsx', 'csv'])
 
 # botão Salvar
 #st.download_button('Salvar', data=df, file_name=dir + '/Teste.csv', mime='text/csv')
@@ -165,9 +165,9 @@ df2 = ''
 col1, col2 = st.columns([3, 1], gap="large")
 #with st.container():
 
-for upload_file in upload_files:
-    if '.xlsx' in upload_file.name:
-        df = pd.read_excel(upload_file)
+if upload_files:
+    if '.xlsx' in upload_files.name:
+        df = pd.read_excel(upload_files.name)
         df.columns = ['Nombres']
         df['Pais'] = bandeira
         cols = df.columns.tolist()
@@ -209,8 +209,8 @@ for upload_file in upload_files:
         #csv = convert_df(df2)
         #st.download_button(label='Salvar', data=csv, file_name='Mapeo_OneTeam.csv', mime='text/csv')
 
-    elif '.csv' in upload_file.name:
-        df = pd.read_csv(upload_file, sep=',')
+    elif '.csv' in upload_files.name:
+        df = pd.read_csv(upload_files.name, sep=',')
         #df.columns = ['Nombres']
         #df['país'] = bandeira
         #cols = df.columns.tolist()
