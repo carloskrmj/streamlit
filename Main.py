@@ -4,8 +4,7 @@ import os
 import base64
 from PIL import Image
 from io import BytesIO
-import pip
-pip.main(["install", "openpyxl"])
+
 
 user = os.getlogin()
 
@@ -151,7 +150,7 @@ bandeira = st.sidebar.selectbox('', paises)
 
 # carrega arquivo
 st.sidebar.subheader('Cargar archivo')
-upload_files = st.sidebar.file_uploader('', accept_multiple_files=True)
+upload_files = st.sidebar.file_uploader('', accept_multiple_files=True, type=['xlsx', 'csv'])
 
 # botão Salvar
 #st.download_button('Salvar', data=df, file_name=dir + '/Teste.csv', mime='text/csv')
