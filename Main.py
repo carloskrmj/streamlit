@@ -167,7 +167,7 @@ col1, col2 = st.columns([3, 1], gap="large")
 
 if upload_files:
     if '.xlsx' in upload_files.name:
-        df = pd.read_excel(upload_files.name)
+        df = pd.read_excel(upload_files)
         df.columns = ['Nombres']
         df['Pais'] = bandeira
         cols = df.columns.tolist()
@@ -210,7 +210,7 @@ if upload_files:
         #st.download_button(label='Salvar', data=csv, file_name='Mapeo_OneTeam.csv', mime='text/csv')
 
     elif '.csv' in upload_files.name:
-        df = pd.read_csv(upload_files.name, sep=',')
+        df = pd.read_csv(upload_files, sep=',')
         #df.columns = ['Nombres']
         #df['país'] = bandeira
         #cols = df.columns.tolist()
