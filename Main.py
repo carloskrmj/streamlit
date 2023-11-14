@@ -62,7 +62,7 @@ with st.container():
         st.write(' - Especialidad Secundaria: Area de conocimiento lateral, que permite una mayor amplitud de actuación, correspondiendo entre el 30% y el 40% del conocimiento del empleado.')
         st.write(' - Residual: Area de conocimientos complementarios, podrá indicar Tecnologías, Productos o Metodologías, correspondientes hasta al 10% de los conocimientos del empleado.')
         st.write('')
-        st.write('Después de completar la clasificación de todas las personas, utilice el botón Enviar para entregar el contenido por correo electrónico (con archivo adjunto) a itops@f1rst.com.br')
+        st.write('Después de completar la clasificación de todas las personas, utilice el botón Enviar para entregar el contenido por correo electrónico (con archivo adjunto) a tyoregionasur@santander.com.br')
 
 
 
