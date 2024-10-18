@@ -148,3 +148,160 @@ copa_martins = [
 st.write('Copa Martins Neto 2023 - 10/12/2023 - Maior campeonato de várzea de São Paulo - Público 1500 pessoas')
 carousel(items=copa_martins, wrap=True)
 
+
+jogos_lgbt = [
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/1d0fbc6e-1202-480a-8ac2-1420ba9548e7.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/03f3d34d-7b7a-4dbf-9e44-2655233ee28c.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/5e4892d1-c329-4eee-a8f2-dab3c2000554.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/6ea81152-1c14-4a70-bbc9-c4169614193c.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/6f2557c9-dd8c-4cf0-899c-37b7bb1de0eb.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/9b1f6b8b-a3f2-4dd2-9a34-20313efe87d3.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/26c411d4-57e9-48b9-a19f-ba30a3261a20.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/36ce12ff-3112-4554-bc9b-08b79b779cdf.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/42e7e3bd-c829-4c4f-8c4f-a0fea0d92fea.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/50a85d35-ffbb-4930-8812-3b94d4bf72cd.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/50ba5c44-1332-48af-bc87-6e5ef200c089.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/71af6f8b-0013-416b-a56c-2b80dcc76b34.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/123ee455-9cec-4dfd-bc75-e65ac0bd902d.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/865c7540-b380-4789-89fb-043c4a92e9a6.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/884bdc7d-2705-4b86-b7cf-afeba912544a.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/13419a2e-e10e-4504-aa87-af50b5ceb4d9.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/872661e6-56cb-409a-b168-fc4f9a2b876b.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/947287e6-6204-4bb8-bbde-edae377e49df.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/a43f63a1-d136-4e7d-a46e-5671f1093612.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/bb14645b-0df7-40f7-8db9-141ad7f7b033.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/ca503709-cbb2-48fd-89ca-e931ccbc6b0b.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/d0f48ba1-9560-41ee-b608-a2ea9771dd37.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/d5f941d4-1ceb-4bce-9b3a-e4008636bbe4.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/f939ec58-c230-4a67-815a-1ae69d23e9f4.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/f17258f8-dfd5-4d88-9ed8-458758146423.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/f77910cf-0d71-4ee5-ae75-4964735fecdf.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/f3344748-b003-4dc4-ac70-b88d9186d937.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/fe1e1fd6-fc3d-4c4e-b2a8-635305b7099c.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/ff273552-c3ec-45a5-b0b4-198be6cb64e2.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/jogos LGBT/b9e98ca9-474a-4120-9db3-5304b37d7cd3.jpg",
+    ),
+
+]
+
+st.write('1ª edição dos jogos LGBT - Novembro de 2021')
+carousel(items=jogos_lgbt, wrap=True)
