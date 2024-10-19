@@ -6,6 +6,7 @@ st.set_page_config(page_title="Eventos Esportivos", layout="wide")
 
 # Título da página
 st.title("Confira nossos eventos")
+st.write("---")
 
 
 amistoso_volei = [
@@ -38,7 +39,8 @@ amistoso_volei = [
     ),
 ]
 
-st.write('Amistoso de vôlei Clube  Guapira São Paulo - 15/11/2023')
+st.header('AMISTOSO DE VOLEI CLUBE GUAPIRA')
+st.subheader('Realizado em 15 de Novembro de 2023')
 carousel(items=amistoso_volei, wrap=True)
 
 
@@ -81,7 +83,9 @@ copa_liga_zn = [
 
 ]
 
-st.write('Copa Liga Zona Norte - 03-02-2024 - Ginásio CDC Curtiball - Público 1200 pessoas')
+st.write('---')
+st.header('COPA LIGA ZONA NORTE')
+st.subheader('Realizada no Ginásio CDC Curtiball em 03 de Fevereiro de 2024 com um público de 1200 pessoas')
 carousel(items=copa_liga_zn, wrap=True)
 
 
@@ -144,8 +148,11 @@ copa_martins = [
 
 
 ]
+st.write('---')
 
-st.write('Copa Martins Neto 2023 - 10/12/2023 - Maior campeonato de várzea de São Paulo - Público 1500 pessoas')
+st.header('COPA 1º DE MAIO - DR CLAUDIO XARÁ')
+st.subheader('Realizada em 1° de Maio de 2024')
+st.write('Coordenação técnica e fornecimento de estrutura, material esportivo, alimentação, hidratação e premiação')
 carousel(items=copa_martins, wrap=True)
 
 
@@ -302,6 +309,9 @@ jogos_lgbt = [
     ),
 
 ]
+st.write('---')
 
-st.write('1ª edição dos jogos LGBT - Novembro de 2021')
+st.header('1ª EDIÇÃO DOS JOGOS LGBT')
+st.subheader('Realizada em Novembro de 2021')
+st.write('Coordenação do evento, distribuição de premiação, alimentação e hidratação de staff e atletas')
 carousel(items=jogos_lgbt, wrap=True)
