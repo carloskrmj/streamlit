@@ -315,3 +315,145 @@ st.header('1ª EDIÇÃO DOS JOGOS LGBT')
 st.subheader('Realizada em Novembro de 2021')
 st.write('Coordenação do evento, distribuição de premiação, alimentação e hidratação de staff e atletas')
 carousel(items=jogos_lgbt, wrap=True)
+
+
+copa_atlas = [
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/63233d9c-2549-4544-83a1-0b9f19602423.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/717888c2-0af0-41f8-94bb-0f01c236b9c5.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/a1d8df11-1c3c-4ee1-a066-33ca881d96fd.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/a772de83-8fc8-41fe-81b4-d52bca96cff1.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/be7d2600-9908-467d-a468-469c43502b74.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/c7ebb3ae-3409-4708-b1a7-57cc40f296f8.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/c111095e-1dd5-4848-870e-8fc5e1dd66b1.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/c3915408-78a5-4ec3-a5fb-9c99ec115781.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/cc8052b4-9d1e-499c-a0d7-f566ac8a33fd.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/d3ee52f8-e2c8-4839-a812-bdbd911ceac9.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/ea74fc8e-612f-47d4-ab52-6e53ef3eb0cf.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas/f967f6d5-dba1-4bea-bc3c-7bd5c90a13b9.jpg",
+    ),
+]
+
+st.write('---')
+
+st.header('- 2023 - COPA ATLAS')
+st.subheader('PROCESSO: 6019.2023/0002826-0')
+st.write('Termo de Colaboração n°277/SEME/2023')
+carousel(items=copa_atlas, wrap=True)
+
+
+copa_atlas2 = [
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/0c8d8e4a-e6f7-42d8-8368-42eeb3a05f3e.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/1db8b9a9-5f0d-461c-b9ad-0f9672db2375.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/5a9735de-0790-4057-9040-f17336fe3c80.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/7a620f9e-6738-4fea-a026-ad7d7e7faa9b.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/7ce56b7f-57f1-4856-885d-aace6146544b.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/7d6cc025-f1c3-4c98-a05a-93384565fc9d.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/8aee0646-d431-4b2b-a140-17f702659105.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/37bdc44e-af5e-4db8-aef4-2d11c8fa97f1.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/73d8742f-f9e4-4c0f-961e-dfecde5ab2d2.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/87a3fa1c-6f5b-4651-bd16-622d2a1a52a2.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/405b38dd-973b-430e-b9d5-d761686aa26b.jpg",
+    ),
+    dict(
+        title="",
+        text="",
+        img="assets/Copa Atlas 2/912ac829-48ea-4c99-830d-13c399375a89.jpg",
+    ),
+]
+
+st.write('---')
+
+st.header('- 2024 - COPA ATLAS 2ª EDIÇÃO')
+st.subheader('PROCESSO: 6019.2024/0001349-4')
+st.write('Termo de Fomento nº 118/SEME/2024')
+carousel(items=copa_atlas2, wrap=True)
