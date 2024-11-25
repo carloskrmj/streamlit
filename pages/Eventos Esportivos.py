@@ -8,6 +8,67 @@ st.set_page_config(page_title="Eventos Esportivos", layout="wide")
 st.title("Confira nossos eventos")
 st.write("---")
 
+abertura_festa_lgbt = [
+    dict(
+        title="",
+        text="",
+        img="assets/festaAberturaJogosLGBT/9f5500c2-8599-42cb-a38b-251a7c094ab2.jpg",
+
+    ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/557a25a9-31ab-4ff1-96c7-f9389cc2ed40.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/647b0c0e-81e0-4655-a0ff-3f1567495556.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/08789e88-1394-4d2e-8804-41d483434e37.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/79359751-5dd7-43af-b79b-5907f370de85.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/a5d5b304-08cb-4866-b1c9-5e8730899dba.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/b1f88da9-3340-47fe-a1fd-d883cfd26498.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/cb990f48-155b-413a-8834-428c3dd0cbce.jpg",
+
+        ),
+    dict(
+            title="",
+            text="",
+            img="assets/festaAberturaJogosLGBT/ef5dfb57-0ef2-4f9e-ac69-b337b542e839.jpg",
+
+        ),
+]
+
+st.header('FESTA DE ABERTURA DOS JOGOS LGBTQIAPN+ 4° EDIÇÃO')
+st.subheader('Realizado em 23 de Novembro de 2024')
+carousel(items=abertura_festa_lgbt, wrap=True)
+
 
 amistoso_volei = [
     dict(
